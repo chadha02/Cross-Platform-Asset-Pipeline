@@ -1,0 +1,10 @@
+return
+{	
+	effectPath = "sprite_effect.effect",
+	texturPath = "9.png",
+	color =
+	{
+		1.0,1.0,1.0,1.0,
+	},
+		
+}

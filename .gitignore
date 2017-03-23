@@ -1,29 +1,48 @@
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# This file instructs git to ignore specific directories,
+# files, and file types
+# ("ignore" meaning that they won't be included
+# in the git repository)
 
-# Precompiled Headers
-*.gch
-*.pch
+# Visual Studio
+#==============
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Explicitly temporary files
+/.vs
 
-# Fortran module files
-*.mod
-*.smod
+# User settings for a solution
+*.suo
+# User settings for a project
+*.vcxproj.user
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Intellisense
+*.sdf
+*.opensdf
+/ipch
+*.VC.db
+*.VC.VC.opendb
 
-# Executables
-*.exe
-*.out
-*.app
+# Profiling
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Resource Editing
+*.aps
+
+# Temporary Files
+#================
+
+# Generated files
+/temp
+
+# Windows
+#========
+
+desktop.ini
+Thumbs.db
+
+# Maya
+#=====
+
+/.mayaSwatches

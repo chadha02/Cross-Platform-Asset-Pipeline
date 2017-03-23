@@ -1,0 +1,16 @@
+return
+{	
+	shaderPath =
+	{
+		vertex = "vertex2.shader",
+		fragment = "fragment2.shader",
+	},
+	
+	renderState = 
+	{
+		alphaTransparency = false,
+		depthBuffering = true,
+		drawBothTriangle = false,
+	},
+	
+}

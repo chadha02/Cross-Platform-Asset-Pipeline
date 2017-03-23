@@ -1,0 +1,10 @@
+return
+{	
+	effectPath = "shader2.effect",
+	texturPath = "snake.jpg",
+	color =
+	{
+		1.0,1.0,1.0,1.0,
+	},
+		
+}

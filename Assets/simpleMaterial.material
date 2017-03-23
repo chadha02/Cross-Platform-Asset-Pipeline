@@ -1,0 +1,10 @@
+return
+{	
+	effectPath = "shader.effect",
+	texturPath = "Apple.jpg",
+	color =
+	{
+		1.0,1.0,1.0,1.0,
+	},
+	
+}

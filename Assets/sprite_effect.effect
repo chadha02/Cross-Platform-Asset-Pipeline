@@ -1,0 +1,16 @@
+return
+{
+	shaderPath =
+	{
+		vertex = "sprite_vertex.shader",
+		fragment = "fragment.shader",
+	},
+	
+	renderState = 
+	{
+		alphaTransparency = true,
+		depthBuffering = false,
+		drawBothTriangle = true,
+	},
+	
+}
